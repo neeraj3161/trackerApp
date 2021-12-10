@@ -5,7 +5,7 @@ const useragent=require('express-useragent')
 app.use(bp.urlencoded({extended:true}));
 app.use(useragent.express());
 app.set('view engine','ejs');
-const port=3000;
+const port=4000;
 const https=require('https');
 
 app.use(express.static(__dirname));
@@ -66,9 +66,6 @@ app.get('/',(req,res)=>{
               data12:os,
               data13:iphone,
               data14:android,
-          
-          
-          
           });
       });
   });
@@ -76,6 +73,6 @@ app.get('/',(req,res)=>{
 
 })
 
-app.listen(process.env.PORT || 3000,()=>{
+app.listen(process.env.PORT || port,()=>{
     console.log("Server running at "+port);
 })
