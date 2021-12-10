@@ -9,7 +9,7 @@ const port=3000;
 const https=require('https');
 
 app.use(express.static(__dirname));
-app.use(express.favicon("public/images/"));
+app.use(express.static(__dirname+"//images"));
 
 app.get('/',(req,res)=>{
     var completeData=(req.useragent);
