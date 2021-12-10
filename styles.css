@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ /* font-family: 'Open Sans', sans-serif;
+font-family: 'Readex Pro', sans-serif; */
+
+ .first_cont{
+     text-align: center;
+     background-color: #4F091D;
+     color: aliceblue;
+     padding-top: 15%;
+ }
+
+p{
+    font-family: 'Readex Pro', sans-serif;
+    line-height: 1.8rem;
+    color: #EADEDE;
+}
+.lastpara{
+    padding-bottom: 14%;
+
+}
+.head1{
+    display: inline-block;
+    font-family: 'Concert One', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 6%;
+}
+
+.footer{
+    background-color: #EAEAEA;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+    padding-bottom: 1%;
+    height: 56px;
+    padding-top: 7px;
+    
+    
+}
+
+.head3{
+    padding-bottom: 5%;
+    color: #EAEAEA;
+}
