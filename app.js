@@ -9,6 +9,7 @@ const port=3000;
 const https=require('https');
 
 app.use(express.static(__dirname));
+app.use(express.favicon("public/images/"));
 
 app.get('/',(req,res)=>{
     var completeData=(req.useragent);
@@ -75,6 +76,6 @@ app.get('/',(req,res)=>{
 
 })
 
-app.listen(process.env.PORT || port,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("Server running at "+port);
 })
